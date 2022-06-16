@@ -14,7 +14,7 @@ const CartIcon = () => {
       }}
     >
       <View style={styles.container}>
-        <Text style={styles.text} onPress={() => {}}>
+        <Text style={styles.text} >
           Cart ({cartStore.getTotalPrice()})
         </Text>
       </View>
